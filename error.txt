@@ -1,0 +1,31 @@
+---------------------------------------------------------------------------
+ModuleNotFoundError                       Traceback (most recent call last)
+Cell In[2], line 9
+      7 import numpy as np
+      8 import matplotlib.pyplot as plt
+----> 9 import yfinance as yf
+     11 # 시각화 설정
+     12 plt.style.use('seaborn-v0_8-whitegrid')
+
+File c:\Users\김상현2\Desktop\main\financial-engineering\venv\Lib\site-packages\yfinance\__init__.py:23
+      1 #!/usr/bin/env python
+      2 # -*- coding: utf-8 -*-
+      3 #
+   (...)     19 # limitations under the License.
+     20 #
+     22 from . import version
+---> 23 from .search import Search
+     24 from .lookup import Lookup
+     25 from .ticker import Ticker
+
+File c:\Users\김상현2\Desktop\main\financial-engineering\venv\Lib\site-packages\yfinance\search.py:27
+     25 from .config import YfConfig
+     26 from .const import _BASE_URL_
+---> 27 from .data import YfData
+     28 from .exceptions import YFDataException
+...
+----> 6 from curl_cffi import requests
+      7 from urllib.parse import urlsplit, urljoin
+      8 from bs4 import BeautifulSoup
+
+ModuleNotFoundError: No module named 'curl_cffi'

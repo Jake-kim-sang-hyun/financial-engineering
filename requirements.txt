@@ -1,0 +1,41 @@
+# 금융 데이터 분석 환경
+# Financial Data Analysis Environment
+
+# 데이터 처리
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 금융 데이터 수집
+yfinance>=0.2.30
+pandas-datareader>=0.10.0
+
+# 시각화
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# 기술적 분석
+ta>=0.10.0
+pandas-ta>=0.3.14b
+
+# 통계 및 수치 계산
+scipy>=1.10.0
+statsmodels>=0.14.0
+
+# 포트폴리오 분석
+quantstats>=0.0.62
+# empyrical - Python 3.12 호환성 문제로 제외
+
+# 머신러닝 (선택사항)
+scikit-learn>=1.3.0
+
+# 개발 환경
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+
+# 유틸리티
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
